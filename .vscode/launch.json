@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run C# Script (dotnet-script)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet-script",
+            "args": [
+                "${file}"
+            ],
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
